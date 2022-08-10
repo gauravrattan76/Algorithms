@@ -1,0 +1,39 @@
+3. Big O of objects-
+
+
+const person = {
+firstName: 'gaurav'
+age: 21
+}
+
+
+Insertion of a property - O(1)
+
+Removal - O(1)
+
+
+access a value using a key - O(1)   ex  person.firstName
+
+
+
+for searching a value  - O(n)  - as we need to traverse through the entire object incase of worst case
+
+
+Object.keys  - O(n)
+
+Object.values - O(n)
+
+Object.enrties - O(n)
+
+_____________________
+
+
+
+
+
+
+
+
+
+
+
