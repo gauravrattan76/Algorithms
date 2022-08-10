@@ -1,0 +1,44 @@
+4. Big O in Arrays-
+_____________________________
+
+O(n) is linear
+
+O(1) is constant
+
+differnce in array from object is that arrays are ordered collection of values where the index start with 0
+
+we start with index 0 and go on then
+const d = [1,2,3,4,5]
+
+
+insert and remove at end - O(1)
+
+insert and remove at start - O(n)  as we need to change index of all elemnts
+
+access an elemnt using index - O(1)
+
+
+search - O(n)
+
+
+push/ Pop - O(1)
+
+
+shift, unshift, slice , concat, splice - O(n)
+
+
+forEach, map, filter, reduce are linear - O(n)
+
+___________________________________
+
+
+
+
+
+
+
+
+
+
+
+
