@@ -1,0 +1,137 @@
+2.Big O Notations-
+___________________________
+
+The worst case complexity of algorithm is represented by Big O Notation
+
+_________________________________
+
+
+Big O notation defines the complexity of algorithm using algebric terms
+
+it has 2 imp characteritics-
+1. it is expressed in terms of input
+2. it focuses on bigger picture without getting caught up in the minute details
+
+
+_______________________________________________
+
+Big O Time Complexity-
+
+
+sum of all natural numbers-
+
+
+
+
+function Sum(n){
+let sum = 0;   //executed 1 time
+for(let i =0; i < n; i++)  // executed 4 times for n = 4
+{
+sum += i; // executed 1 time
+}
+return sum;
+}
+
+
+________________________________________
+total time - 4 + 2  genrally - n +2 
+
+we ignore the second part as second part is insignificant, we focus on bigger picture
+
+so time complexity - O(n)
+
+Complexity-
+
+we count the number of times a statemnt executes as per the input size
+
+
+
+_____________________
+
+so Time complexity - O(n)  - Linear
+
+___________________________
+
+for Loop - time complexity - O(n)   - linear
+
+_________________
+
+function sum(n)
+{
+return (n * (n+1))
+}
+
+
+
+Time complexity - O(1) as no loop executes one time
+
+_______________________________
+
+two loops-
+
+complexity - O(n2) - quadratic
+
+3n2 + 5n + 1
+
+_______________________
+
+three nested loops - O(n3)
+
+
+_________________
+
+input size reduced by half then -
+
+O(logn)
+
+
+
+________________________________
+
+
+Space complexity-
+
+If algorith doest depend on inout value
+
+space complxty - O(1)
+
+ex - sorting algorithm which sort the array using existing array without using additional array
+
+
+__________________________________
+
+algo like linear complexty - O(n) - where we need extra space as the input size increases
+
+
+O(logn) - when the size reqired increaes but not at the same speed
+
+quadratic cmplexty always avoid
+_______________________________
+
+best complexty -
+
+O(1), O(logn)
+
+O(n)
+
+O(nLogn)
+
+O(n2)
+
+
+O(n!) O(2n)  - worst
+
+
+______________________________
+
+
+
+
+
+
+
+
+
+
+
+
