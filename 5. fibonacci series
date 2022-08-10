@@ -1,0 +1,60 @@
+5. Fibonacci sequence-
+__________________________________
+
+Cheat Sheet for complexty-
+
+1. calculation doesnt depend on input value - O(1)
+
+2. loop - O(n)  - Linear
+
+3.nested Loops - O(n^2)
+
+4.input size reduced by half - O(logn)
+
+
+
+
+Fibonacci sequence -
+
+a sequence in which each number is a sum of preceding 2 numbers
+
+The first 2 numbers are 0 and 1
+
+[0,1,1,2,3,5,8,13]
+
+fib(2) = [0,1]
+fib(3) = [0,1,1]
+
+fib(7) = [0,1,1,2,3,5,8]
+
+___________
+
+ function calFibonacci(n)
+ {
+    let fib = [0,1]
+    for(let i =2; i < n; i++)
+     {
+         fib[i] = fib[i-1] + fib[i-2]
+     }
+     return fib;
+}
+ 
+ console.log(calFibonacci(2))
+ 
+ 
+console.log(calFibonacci(5))
+ 
+ 
+console.log(calFibonacci(7))
+ 
+ // fib(2) = [0,1]
+ // fib(4) = [0,1,1,2]
+ 
+ // complexity is O(n)
+
+
+
+
+
+
+
