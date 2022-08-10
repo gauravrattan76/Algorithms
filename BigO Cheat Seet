@@ -1,0 +1,10 @@
+
+Cheat Sheet for complexty-
+
+1. calculation doesnt depend on input value - O(1)
+
+2. loop - O(n)  - Linear
+
+3.nested Loops - O(n^2)
+
+4.input size reduced by half - O(logn)
